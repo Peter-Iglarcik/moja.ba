@@ -10,8 +10,11 @@
     width: 80vw;
     height: 20vh;
 }
+.mensie {
+    height: 16vw;
+}
 .row {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .scrollable {
     overflow-x: scroll;
@@ -55,10 +58,10 @@
     writing-mode: tb-rl;
     transform: rotateZ(180deg);
 }
-#stock-chart-example-2 > table.column tr:nth-child(even) {
+.CHcervena {
     --color: #e88;
 }
-#stock-chart-example-2 > table.column tr:nth-child(odd) {
+.CHzelena {
     --color: #8c8;
 }
 .charts-css.column:not(.reverse) tbody tr th {
@@ -96,4 +99,8 @@
 }
 .nadpis {
     font-size: 6vw;
+}
+.pie {
+    border-radius: 50%;
+    background: conic-gradient(rgb(52,158,94) 0.0% 45.0%, rgb(42,131,77) 45.0% 65.0%, rgb(31,105,60) 65.00% 85.0%, rgb(22,79,44) 85.0% 95.0%, rgb(13,56,30) 95.0% 100.00%);
 }
