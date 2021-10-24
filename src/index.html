@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Moja BA</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="text-align: center">
+                <picture id="obrazok-avatar">
+                    <source srcset="avatar.jpeg" type="image/jpeg+xml">
+                    <img src="avatar.jpeg" id="Avatar" class="img-fluid img-thumbnail" alt="Avatar">
+                </picture>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="h2 t-2 text-center">Milá Porota</p>
+                <p class="fs-6 t-6 text-center" style="font-size:0.8rem !important; margin-bottom: 30px">Level 4</p>
+            </div>
+        </div>
+        <div class="row scrollable">
+            <div class="SecScr">
+                <div class="card zelena">
+                    <div class="card-body">
+                        <div class="LR">
+                            <h1 class="card-title km nadpis">Ušetrené CO<sub>2</sub></h1>
+                            <h1 class="card-title km nadpis" style="font-weight: bold">6.32kg</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="SecScr">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="LR">
+                            <h6 class="card-title" style="display:inline-block;width: 80%">Počet stromov, ktorým ste dali na mesiac voľno</h6>
+                            <h5 class="card-title km" style="display:inline-block;font-size: 6vw;margin-top: 2px;text-align: right; padding-right: 4vw; font-weight: bold">4</h5>
+                            <div class="card-text sfg text-center">
+                                <object class="svg1" data="treez.svg" type="image/svg+xml"></object>
+                                <object class="svg1" data="treez.svg" type="image/svg+xml"></object>
+                                <object class="svg1" data="treez.svg" type="image/svg+xml"></object>
+                                <object class="svg1" data="treez.svg" type="image/svg+xml"></object>
+                                <object class="svg1" data="tree.svg" type="image/svg+xml"></object>
+                                <object class="svg1" data="tree.svg" type="image/svg+xml"></object>
+                                <object class="svg1" data="tree.svg" type="image/svg+xml"></object>
+                                <object class="svg1" data="tree.svg" type="image/svg+xml"></object>
+                                <object class="svg1" data="tree.svg" type="image/svg+xml"></object>
+                                <object class="svg1" data="tree.svg" type="image/svg+xml"></object>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="SecScr">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="LR">
+                            <object class="svg1" data="phone.svg" type="image/svg+xml" style="width: 20%;display:inline-block;position: relative; top: 50%"></object>
+                            <div style="width: calc(80% - 2rem);display: inline-block">
+                                <h6 class="card-title km" style="display:inline-block;right: unset;margin: 0">Svoj mobil by ste nabili približne</h6>
+                                <h5 class="card-title km" style="font-size: 6vw;font-weight: bold">100x</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row scrollable">
+            <div class="SecScr">
+                <div class="card zelena mensie">
+                    <div class="card-body">
+                        <div class="LR">
+                            <h1 class="card-title km nadpis" style="font-size: 6vw; width: 70%">Zelené kilometre</h1>
+                            <h1 class="card-title km nadpis" style="font-weight: bold">74.62km</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="SecScr">
+                <div class="card mensie" style="border-color: #88cc88; color: #88cc88">
+                    <div class="card-body">
+                        <div class="LR">
+                            <h1 class="card-title km nadpis" style="font-size: 6vw; width: 70%;">Okolo Bratislavy</h1>
+                            <h1 class="card-title km nadpis" style="font-weight: bold">100%</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="SecScr">
+                <div class="card mensie">
+                    <div class="card-body">
+                        <div class="LR">
+                            <h1 class="card-title km nadpis" style="font-size: 6vw; width: 70%">Do Košíc</h1>
+                            <h1 class="card-title km nadpis" style="font-weight: bold">27%</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="SecScr">
+                <div class="card mensie">
+                    <div class="card-body">
+                        <div class="LR">
+                            <h1 class="card-title km nadpis" style="font-size: 6vw; width: 70%">Na mesiac</h1>
+                            <h1 class="card-title km nadpis" style="font-weight: bold">3%</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="SecScr">
+                <div class="card mensie">
+                    <div class="card-body">
+                        <div class="LR">
+                            <h1 class="card-title km nadpis" style="font-size: 6vw; width: 70%">Okolo Zeme</h1>
+                            <h1 class="card-title km nadpis" style="font-weight: bold">0.3%</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="SecScr">
+                <div class="card" style="width: 94vw;height: auto">
+                    <div class="card-body">
+                        <h5 class="card-title">Ušetrené CO<sub>2</sub> mesačne</h5>
+                        <div id="stock-chart-example-2">
+                            <table class="charts-css column data-spacing-2 show-labels show-8-secondary-axes">
+                                <tbody>
+                                <tr class="CHzelena">
+                                    <th scope="row">Apríl</th>
+                                    <td style="--size:0.6;"></td>
+                                </tr>
+                                <tr class="CHzelena">
+                                    <th scope="row">Máj</th>
+                                    <td style="--size:0.9;"></td>
+                                </tr>
+                                <tr class="CHzelena">
+                                    <th scope="row">Jún</th>
+                                    <td style="--size:1;"></td>
+                                </tr>
+                                <tr class="CHcervena">
+                                    <th scope="row">Júl</th>
+                                    <td style="--size:0.4;"></td>
+                                </tr>
+                                <tr class="CHcervena">
+                                    <th scope="row">August</th>
+                                    <td style="--size:0.3;"></td>
+                                </tr>
+                                <tr class="CHzelena">
+                                    <th scope="row">September</th>
+                                    <td style="--size:0.6;"></td>
+                                </tr>
+                                <tr class="CHzelena">
+                                    <th scope="row">Október</th>
+                                    <td style="--size:0.9;"></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div class="data-1-axis">Ušetrené CO<sub class="r-sub">2</sub> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="SecScr">
+                <div class="card" style="width: 94vw;height:auto;">
+                    <div class="card-body">
+                        <div class="pie" style="display:inline-block; width: calc((100vw - 5rem) / 2); height: calc((100vw - 5rem) / 2);"></div>
+                        <div class="content" style="display:inline-block; margin-left: 40px; width:calc(50%-1rem)">
+                            <p><span style="color: rgb(52,158,94)">⬤</span> Autobus</p>
+                            <p><span style="color: rgb(42,131,77)">⬤</span> Električka</p>
+                            <p><span style="color: rgb(31,105,60)">⬤</span> Trolejbus</p>
+                            <p><span style="color: rgb(22,79,44)">⬤</span> Kolobežka</p>
+                            <p><span style="color: rgb(13,56,30)">⬤</span> Bicykel</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="SecScr">
+                <div class="card mensie" style="width: 94vw">
+                    <div class="card-body">
+                        <div class="LR">
+                            <h1 class="card-title km nadpis">Ušetrili ste</h1>
+                            <h1 class="card-title km nadpis" style="font-weight: bold">16,49€</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="SecScr">
+                <div class="card" style="width: 94vw;">
+                    <div class="card-body">
+                        <div class="LR">
+                            <h6 class="card-title" style="display:block;width: 100%; text-align: center;margin-bottom: 10px; font-size: 4vw">Bratislava tento mesiac ušetrila</h6>
+                            <h5 class="card-title" style="display:block;font-size: 7vw;color: #88cc88;margin-top: 2px;text-align: center; font-weight: bold; margin-bottom: 0">14 934kg CO<sub>2</sub></h5>
+                            <h6 class="card-title text-muted" style="display:block;width: 100%; text-align: center;font-size: 3vw;">Porazili sme minulý mesiac o <u>239kg</u></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="content-block-list">
+                <li class="grid-50 tablet-grid-50">
+                    <div class="content-block">
+                        <div class="grid-70 tablet-grid-70 mobile-grid-70 content-meta">
+                            <strong>Achievement</strong>
+                            <h3>JavaScript Arrays and Loops</h3>
+                            <p> JavaScript Quickstart</p>
+                            <div class="content-actions-container">
+                                <span class="icon icon-complete"></span>
+                                <strong>Achieved</strong>
+                                <p>Jun 12, 2019</p>
+                            </div>
+                        </div>
+                        <div class="grid-30 tablet-grid-30 mobile-grid-30 achievement-hero">
+                            <img alt="JavaScript Arrays and Loops" src="https://achievement-images.teamtreehouse.com/badge_javascript-array-iteration-methods_stage01.png">
+                        </div>
+                    </div>
+                </li>
+                <li class="grid-50 tablet-grid-50">
+                    <div class="content-block">
+                        <div class="grid-70 tablet-grid-70 mobile-grid-70 content-meta">
+                            <strong>Achievement</strong>
+                            <h3>JavaScript Functions</h3>
+                            <p> JavaScript Quickstart</p>
+                            <div class="content-actions-container">
+                                <span class="icon icon-complete"></span>
+                                <strong>Achieved</strong>
+                                <p>Jun 11, 2019</p>
+                            </div>
+                        </div>
+                        <div class="grid-30 tablet-grid-30 mobile-grid-30 achievement-hero">
+                            <img alt="JavaScript Functions" src="https://achievement-images.teamtreehouse.com/badges_JavaScript_Basics_Stage4B.png">
+                        </div>
+                    </div>
+                </li>
+                <li class="grid-50 tablet-grid-50">
+                    <div class="content-block">
+                        <div class="grid-70 tablet-grid-70 mobile-grid-70 content-meta">
+                            <strong>Achievement</strong>
+                            <h3>Data Types and Variables</h3>
+                            <p> JavaScript Quickstart</p>
+                            <div class="content-actions-container">
+                                <span class="icon icon-complete"></span>
+                                <strong>Achieved</strong>
+                                <p>Jun 11, 2019</p>
+                            </div>
+                        </div>
+                        <div class="grid-30 tablet-grid-30 mobile-grid-30 achievement-hero">
+                            <img alt="Data Types and Variables" src="https://achievement-images.teamtreehouse.com/badges_JavaScript_Basics_Stage1.png">
+                        </div>
+                    </div>
+                </li>
+                <li class="grid-50 tablet-grid-50">
+                    <div class="content-block">
+                        <div class="grid-70 tablet-grid-70 mobile-grid-70 content-meta">
+                            <strong>Achievement</strong>
+                            <h3>Getting Started with CSS Transitions</h3>
+                            <p>CSS Transitions and Transforms</p>
+                            <div class="content-actions-container">
+                                <span class="icon icon-complete"></span>
+                                <strong>Achieved</strong>
+                                <p>Jun 10, 2019</p>
+                            </div>
+                        </div>
+                        <div class="grid-30 tablet-grid-30 mobile-grid-30 achievement-hero">
+                            <img alt="Getting Started with CSS Transitions" src="https://achievement-images.teamtreehouse.com/css-transitions-and-transforms-badge-01.png">
+                        </div>
+                    </div>
+                </li>
+                <li class="grid-50 tablet-grid-50">
+                    <div class="content-block">
+                        <div class="grid-70 tablet-grid-70 mobile-grid-70 content-meta">
+                            <strong>Achievement</strong>
+                            <h3>Get Involved in Open Source</h3>
+                            <p>GitHub Basics</p>
+                            <div class="content-actions-container">
+                                <span class="icon icon-complete"></span>
+                                <strong>Achieved</strong>
+                                <p>Jun 10, 2019</p>
+                            </div>
+                        </div>
+                        <div class="grid-30 tablet-grid-30 mobile-grid-30 achievement-hero">
+                            <img alt="Get Involved in Open Source" src="https://achievement-images.teamtreehouse.com/badges_githubBasics_Stage5.png">
+                        </div>
+                    </div>
+                </li>
+                <li class="grid-50 tablet-grid-50">
+                    <div class="content-block">
+                        <div class="grid-70 tablet-grid-70 mobile-grid-70 content-meta">
+                            <strong>Achievement</strong>
+                            <h3> Create a Web Presence on GitHub</h3>
+                            <p>GitHub Basics</p>
+                            <div class="content-actions-container">
+                                <span class="icon icon-complete"></span>
+                                <strong>Achieved</strong>
+                                <p>Jun 10, 2019</p>
+                            </div>
+                        </div>
+                        <div class="grid-30 tablet-grid-30 mobile-grid-30 achievement-hero">
+                            <img alt=" Create a Web Presence on GitHub" src="https://achievement-images.teamtreehouse.com/badges_githubBasics_Stage4.png">
+                        </div>
+                    </div>
+                </li>
+                <li class="grid-50 tablet-grid-50">
+                    <div class="content-block">
+                        <div class="grid-70 tablet-grid-70 mobile-grid-70 content-meta">
+                            <strong>Achievement</strong>
+                            <h3> Working on a Team</h3>
+                            <p>GitHub Basics</p>
+                            <div class="content-actions-container">
+                                <span class="icon icon-complete"></span>
+                                <strong>Achieved</strong>
+                                <p>Jun 10, 2019</p>
+                            </div>
+                        </div>
+                        <div class="grid-30 tablet-grid-30 mobile-grid-30 achievement-hero">
+                            <img alt=" Working on a Team" src="https://achievement-images.teamtreehouse.com/badges_githubBasics_Stage3.png">
+                        </div>
+                    </div>
+                </li>
+                <li class="grid-50 tablet-grid-50">
+                    <div class="content-block">
+                        <div class="grid-70 tablet-grid-70 mobile-grid-70 content-meta">
+                            <strong>Achievement</strong>
+                            <h3>Improving the Application Code</h3>
+                            <p>DOM Scripting By Example</p>
+                            <div class="content-actions-container">
+                                <span class="icon icon-complete"></span>
+                                <strong>Achieved</strong>
+                                <p>Jun 9, 2019</p>
+                            </div>
+                        </div>
+                        <div class="grid-30 tablet-grid-30 mobile-grid-30 achievement-hero">
+                            <img alt="Improving the Application Code" src="https://achievement-images.teamtreehouse.com/cleanCode.png">
+                        </div>
+                    </div>
+                </li>
+                <li class="grid-50 tablet-grid-50">
+                    <div class="content-block">
+                        <div class="grid-70 tablet-grid-70 mobile-grid-70 content-meta">
+                            <strong>Achievement</strong>
+                            <h3>Editing and Filtering Names</h3>
+                            <p>DOM Scripting By Example</p>
+                            <div class="content-actions-container">
+                                <span class="icon icon-complete"></span>
+                                <strong>Achieved</strong>
+                                <p>Jun 9, 2019</p>
+                            </div>
+                        </div>
+                        <div class="grid-30 tablet-grid-30 mobile-grid-30 achievement-hero">
+                            <img alt="Editing and Filtering Names" src="https://achievement-images.teamtreehouse.com/filter.png">
+                        </div>
+                    </div>
+                </li>
+                <li class="grid-50 tablet-grid-50">
+                    <div class="content-block">
+                        <div class="grid-70 tablet-grid-70 mobile-grid-70 content-meta">
+                            <strong>Achievement</strong>
+                            <h3>Adding and Removing Names</h3>
+                            <p>DOM Scripting By Example</p>
+                            <div class="content-actions-container">
+                                <span class="icon icon-complete"></span>
+                                <strong>Achieved</strong>
+                                <p>Jun 9, 2019</p>
+                            </div>
+                        </div>
+                        <div class="grid-30 tablet-grid-30 mobile-grid-30 achievement-hero">
+                            <img alt="Adding and Removing Names" src="https://achievement-images.teamtreehouse.com/naming.png">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
+<!--
+<div class="SecScr">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+</div>
