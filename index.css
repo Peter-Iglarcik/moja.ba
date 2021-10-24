@@ -10,8 +10,11 @@
     width: 80vw;
     height: 20vh;
 }
+.mensie {
+    height: 16vw;
+}
 .row {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .scrollable {
     overflow-x: scroll;
@@ -55,10 +58,10 @@
     writing-mode: tb-rl;
     transform: rotateZ(180deg);
 }
-#stock-chart-example-2 > table.column tr:nth-child(even) {
+.CHcervena {
     --color: #e88;
 }
-#stock-chart-example-2 > table.column tr:nth-child(odd) {
+.CHzelena {
     --color: #8c8;
 }
 .charts-css.column:not(.reverse) tbody tr th {
